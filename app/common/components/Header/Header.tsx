@@ -67,7 +67,7 @@ const Header: React.FC<
 const styles = StyleSheet.create({
   container: {
     width,
-    height: 48,
+    height: 56,
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
@@ -84,8 +84,8 @@ const styles = StyleSheet.create({
     marginLeft: 6,
   },
   refresh: {
-    width: 32,
-    height: 32,
+    width: 40,
+    height: 40,
 
     justifyContent: "center",
     alignItems: "center",
@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     right: 12,
 
-    borderRadius: 6,
+    borderRadius: 10,
   }
 });
 
